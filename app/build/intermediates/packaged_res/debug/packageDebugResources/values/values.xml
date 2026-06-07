@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F8FAFC</color>
+    <color name="baseline_shopping_bag_24_background">#5ADC3D</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ic_launcher_background">#5ADC3D</color>
+    <color name="primary">#1E293B</color>
+    <color name="secondary">#3B82F6</color>
+    <color name="success">#10B981</color>
+    <color name="textDark">#0F172A</color>
+    <color name="textLight">#64748B</color>
+    <string name="app_name">ExpenseTracker</string>
+    <string name="default_web_client_id" translatable="false">604793531809-u30vivprd156k58crnuqr5egs75mlr84.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">604793531809</string>
+    <string name="google_api_key" translatable="false">AIzaSyAvAKi-bk2VC5wgKhmYDK5qbVbUevPZMpk</string>
+    <string name="google_app_id" translatable="false">1:604793531809:android:d82deb1fe8af8d329c6fe0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAvAKi-bk2VC5wgKhmYDK5qbVbUevPZMpk</string>
+    <string name="google_storage_bucket" translatable="false">expensetracker-a2a21.firebasestorage.app</string>
+    <string name="project_id" translatable="false">expensetracker-a2a21</string>
+    <style name="Theme.ExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#388E3C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>
