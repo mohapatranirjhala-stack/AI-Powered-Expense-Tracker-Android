@@ -1,4 +1,10 @@
 Expense Tracker Android App
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![Android](https://img.shields.io/badge/Android-34A853?logo=android&logoColor=white)
+![Firestore](https://img.shields.io/badge/Cloud%20Firestore-FFCA28?logo=firebase&logoColor=black)
+![MPAndroidChart](https://img.shields.io/badge/Charts-MPAndroidChart-blue)
+![PDF](https://img.shields.io/badge/PDF%20Export-Supported-red)
 
 A modern Android finance management application built using Kotlin and Firebase that helps users track expenses, manage budgets, and analyze spending behavior through interactive visualizations.
 
