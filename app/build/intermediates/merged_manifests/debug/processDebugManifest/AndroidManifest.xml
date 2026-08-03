@@ -62,6 +62,9 @@
         <activity
             android:name="com.example.expensetracker.AddExpenseActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.expensetracker.chat.ChatActivity"
+            android:exported="false" />
 
         <!-- PDF File Provider -->
         <provider

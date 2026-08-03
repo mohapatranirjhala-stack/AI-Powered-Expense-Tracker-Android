@@ -4,6 +4,10 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\xml\\file_paths.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\layout_dialog_goal.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\layout\\dialog_goal.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\menu_dashboard_menu.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\menu\\dashboard_menu.xml"
     },
@@ -28,12 +32,12 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\mipmap-mdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\mipmap-mdpi_baseline_shopping_bag_24.webp.flat",
-        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\mipmap-mdpi\\baseline_shopping_bag_24.webp"
-    },
-    {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\mipmap-mdpi_baseline_shopping_bag_24.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\mipmap-mdpi\\baseline_shopping_bag_24.webp"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\drawable_baseline_restaurant_24.xml.flat",
@@ -44,12 +48,20 @@
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\drawable\\baseline_medication_24.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\layout_item_ai_message.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\layout\\item_ai_message.xml"
+    },
+    {
         "merged": "com.example.expensetracker.app-debug-40:/layout_activity_dashboard.xml.flat",
         "source": "com.example.expensetracker.app-main-42:/layout/activity_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\layout_activity_add_expense.xml.flat",
@@ -94,6 +106,10 @@
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\layout_item_user_message.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-main-42:\\layout\\item_user_message.xml"
     },
     {
         "merged": "C:\\Users\\HP\\.gradle\\daemon\\9.1.0\\com.example.expensetracker.app-debug-40:\\mipmap-xxhdpi_ic_launcher.webp.flat",

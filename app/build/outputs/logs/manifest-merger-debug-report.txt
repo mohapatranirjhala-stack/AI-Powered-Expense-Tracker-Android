@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:58:9-68:20
+INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:62:9-72:20
 	android:grantUriPermissions
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:62:13-47
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:66:13-47
 	android:authorities
 		INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:60:13-60
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:64:13-60
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:61:13-37
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:59:13-62
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:63:13-62
 manifest
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-72:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-72:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-72:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-72:12
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-76:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-76:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-76:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:3:1-76:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\d8e624a605893bfaeefc796b79d69962\workspace\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\HP\.gradle\caches\9.1.0\transforms\699b99b3e1fa098ed9813493c1f03947\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\e10514e0bcda26c16e795b406d5a6647\workspace\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -40,7 +40,6 @@ MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\HP\.gradle
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\8e9b5ce38a624345952b80ae0395d768\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\3345bc0eaa027b9fe74933ad3f6bf6be\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\5e361994c56d382c1f5e1f3a139bb393\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.transition:transition:1.5.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\134d82c70fb3f2e0a011caaaa419ed87\workspace\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\19b7bc5f00c21fdbe58318a0ffd40194\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\82d9fb3c536945214cbe94104465adda\workspace\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -52,6 +51,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\HP\.grad
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\9b9f5cfa17e2d611a25d8076f599a9a9\workspace\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\7f08e606c769d558d256f9d190ee3b12\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\HP\.gradle\caches\9.1.0\transforms\465551c0acc7d0e636e5049ffe8a8b85\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\322ddf7db6153c86757072803dcf1150\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\fd5ec3ad7451935cb8a76c68b72ba7d2\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.5.4] C:\Users\HP\.gradle\caches\9.1.0\transforms\546f71ae1a9ff620d866bc388453babd\workspace\transformed\fragment-1.5.4\AndroidManifest.xml:17:1-24:12
@@ -67,7 +67,6 @@ MERGED from [androidx.core:core:1.13.1] C:\Users\HP\.gradle\caches\9.1.0\transfo
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\7b5a5d63e35e1f4057fa0a4eff3c4f02\workspace\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\HP\.gradle\caches\9.1.0\transforms\cccccf6e14074fc7d7b31263e741cb05\workspace\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\55b29900b6aca039820403ac350b9e47\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\660664766f9d92a568fa4eda8c097217\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\28507e5fc115639673f409f809b8ac14\workspace\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\c492231c2764b21301189e7e70d5a35c\workspace\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -81,6 +80,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\4008c402acc039f55e0e2390432b78d3\workspace\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\19e8348325840c17afadde12799e2ec3\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\4044086cc01b4cdbaaf59942e03190f4\workspace\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\6877b4f5e972ea1e2e472f67caba79d6\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b02dfaa77ebfe504591dee630d9442eb\workspace\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
@@ -104,8 +104,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\HP\.gradle\
 	android:name
 		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:7:9-51
 application
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:9:5-70:19
-INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:9:5-70:19
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:9:5-74:19
+INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:9:5-74:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\d8e624a605893bfaeefc796b79d69962\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\d8e624a605893bfaeefc796b79d69962\workspace\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\HP\.gradle\caches\9.1.0\transforms\699b99b3e1fa098ed9813493c1f03947\workspace\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -136,10 +136,10 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\HP\.grad
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\8e9b5ce38a624345952b80ae0395d768\workspace\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\3345bc0eaa027b9fe74933ad3f6bf6be\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\3345bc0eaa027b9fe74933ad3f6bf6be\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\a659558e2f12a366db8330ff657722ad\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\a659558e2f12a366db8330ff657722ad\workspace\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\322ddf7db6153c86757072803dcf1150\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\322ddf7db6153c86757072803dcf1150\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\fd5ec3ad7451935cb8a76c68b72ba7d2\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
@@ -175,51 +175,57 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\HP\.gradle\caches\
 	android:dataExtractionRules
 		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:11:9-65
 activity#com.example.expensetracker.SplashActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-35:20
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-36:20
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:22:13-43
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:23:13-43
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:25:13-33:29
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:26:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:27:17-28:65
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:28:17-29:65
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:28:21-62
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:29:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:30:17-31:71
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:31:17-32:71
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:31:21-68
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:32:21-68
 activity#com.example.expensetracker.MainActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:40:13-41
 activity#com.example.expensetracker.RegisterActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:43:9-45:40
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:45:13-37
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:44:13-45
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:45:13-45
 activity#com.example.expensetracker.DashboardActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:48:9-50:40
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:49:9-51:40
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:50:13-37
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:49:13-46
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:50:13-46
 activity#com.example.expensetracker.AddExpenseActivity
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:53:9-55:40
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:54:9-56:40
 	android:exported
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:56:13-37
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:54:13-47
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:55:13-47
+activity#com.example.expensetracker.chat.ChatActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:58:13-46
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:64:13-66:54
+ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:68:13-70:54
 	android:resource
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:66:17-51
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:70:17-51
 	android:name
-		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:65:17-67
+		ADDED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml:69:17-67
 uses-sdk
 INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\HP\AndroidStudioProjects\ExpenseTracker\app\src\main\AndroidManifest.xml
@@ -274,8 +280,6 @@ MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\HP\.gradle\cac
 MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\3345bc0eaa027b9fe74933ad3f6bf6be\workspace\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\5e361994c56d382c1f5e1f3a139bb393\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\5e361994c56d382c1f5e1f3a139bb393\workspace\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
 MERGED from [androidx.transition:transition:1.5.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\134d82c70fb3f2e0a011caaaa419ed87\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.transition:transition:1.5.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\134d82c70fb3f2e0a011caaaa419ed87\workspace\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\19b7bc5f00c21fdbe58318a0ffd40194\workspace\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
@@ -298,6 +302,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\H
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\7f08e606c769d558d256f9d190ee3b12\workspace\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\HP\.gradle\caches\9.1.0\transforms\465551c0acc7d0e636e5049ffe8a8b85\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\HP\.gradle\caches\9.1.0\transforms\465551c0acc7d0e636e5049ffe8a8b85\workspace\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\ee98701946da47879c0d63bce15cff73\workspace\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\322ddf7db6153c86757072803dcf1150\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\322ddf7db6153c86757072803dcf1150\workspace\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\fd5ec3ad7451935cb8a76c68b72ba7d2\workspace\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
@@ -328,8 +334,6 @@ MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\HP\.gradle\caches\9.1.0\tra
 MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\HP\.gradle\caches\9.1.0\transforms\cccccf6e14074fc7d7b31263e741cb05\workspace\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\55b29900b6aca039820403ac350b9e47\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\55b29900b6aca039820403ac350b9e47\workspace\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\660664766f9d92a568fa4eda8c097217\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\660664766f9d92a568fa4eda8c097217\workspace\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\28507e5fc115639673f409f809b8ac14\workspace\transformed\MPAndroidChart-v3.1.0\AndroidManifest.xml:16:5-18:41
@@ -356,6 +360,8 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HP\.gradle\cache
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\19e8348325840c17afadde12799e2ec3\workspace\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\4044086cc01b4cdbaaf59942e03190f4\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\4044086cc01b4cdbaaf59942e03190f4\workspace\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b9fbc99c33322056e7e3144af790ee1c\workspace\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\6877b4f5e972ea1e2e472f67caba79d6\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\HP\.gradle\caches\9.1.0\transforms\6877b4f5e972ea1e2e472f67caba79d6\workspace\transformed\grpc-android-1.57.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\HP\.gradle\caches\9.1.0\transforms\b02dfaa77ebfe504591dee630d9442eb\workspace\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
