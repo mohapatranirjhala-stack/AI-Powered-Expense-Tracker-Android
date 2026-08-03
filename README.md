@@ -181,6 +181,7 @@ The project demonstrates modern Android development practices including Firebase
 |-------------|--------------|
 | ![](screenshots/add_expense.png) | ![](screenshots/expenses.png) |
 
+
 | Search | Analytics |
 |--------|-----------|
 | ![](screenshots/search.png) | ![](screenshots/analytics.png) |
@@ -196,6 +197,10 @@ The project demonstrates modern Android development practices including Firebase
 | AI Chat | PDF Export |
 |---------|------------|
 | ![](screenshots/chat.png) | ![](screenshots/pdf.png) |
+
+| Category Distribution (Pie Chart) |
+|-----------------------------------|
+| ![](screenshots/piechart.png) |
 
 ---
 
