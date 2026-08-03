@@ -9,6 +9,9 @@ android {
     namespace = "com.example.expensetracker"
 
     compileSdk = 34
+    buildFeatures {
+        buildConfig = true
+    }
 
     defaultConfig {
 
@@ -21,6 +24,16 @@ android {
         versionCode = 1
 
         versionName = "1.0"
+        buildConfigField(
+            "String",
+            "GEMINI_API_KEY",
+            "\"${project.findProperty("GEMINI_API_KEY") ?: ""}\""
+        )
+        buildConfigField(
+            "String",
+            "GROQ_API_KEY",
+            "\"${project.findProperty("GROQ_API_KEY")}\""
+        )
 
         testInstrumentationRunner =
             "androidx.test.runner.AndroidJUnitRunner"
@@ -105,4 +118,8 @@ dependencies {
     implementation(
         "com.google.firebase:firebase-firestore-ktx"
     )
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 }

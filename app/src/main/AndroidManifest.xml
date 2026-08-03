@@ -19,6 +19,7 @@
 
         <!-- Splash Screen -->
         <activity
+
             android:name=".SplashActivity"
             android:exported="true">
 
@@ -52,6 +53,9 @@
         <!-- Add Expense Activity -->
         <activity
             android:name=".AddExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatActivity"
             android:exported="false" />
 
         <!-- PDF File Provider -->
