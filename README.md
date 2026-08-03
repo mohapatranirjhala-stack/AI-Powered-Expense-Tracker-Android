@@ -185,10 +185,6 @@ The project demonstrates modern Android development practices including Firebase
 |--------|-----------|
 | ![](screenshots/search.png) | ![](screenshots/analytics.png) |
 
-| Pie Chart | Line Chart |
-|-----------|------------|
-| ![](screenshots/pie_chart.png) | ![](screenshots/line_chart.png) |
-
 | AI Insights | AI Prediction |
 |-------------|---------------|
 | ![](screenshots/ai_insights.png) | ![](screenshots/prediction.png) |
