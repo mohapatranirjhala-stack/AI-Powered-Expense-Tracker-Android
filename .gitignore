@@ -14,3 +14,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Local API keys / secrets
+gradle.properties
+# Generated release artifacts
+app/release/

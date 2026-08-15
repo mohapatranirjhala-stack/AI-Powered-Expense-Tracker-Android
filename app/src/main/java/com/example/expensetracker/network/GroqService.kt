@@ -33,7 +33,7 @@ object GroqService {
             try {
 
                 val request = GroqRequest(
-                    model = "llama-3.3-70b-versatile",
+                    model = "openai/gpt-oss-120b",
                     messages = listOf(
                         GroqMessage(
                             role = "user",
@@ -43,7 +43,7 @@ object GroqService {
                 )
 
                 val response = api.chatCompletion(
-                    "Bearer ${BuildConfig.GROQ_API_KEY}",
+                    token = "Bearer ${BuildConfig.GROQ_API_KEY}",
                     request
                 )
 

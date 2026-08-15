@@ -21,9 +21,9 @@ android {
 
         targetSdk = 34
 
-        versionCode = 1
+        versionCode = 2
 
-        versionName = "1.0"
+        versionName = "1.1"
         buildConfigField(
             "String",
             "GEMINI_API_KEY",
@@ -32,7 +32,7 @@ android {
         buildConfigField(
             "String",
             "GROQ_API_KEY",
-            "\"${project.findProperty("GROQ_API_KEY")}\""
+            "\"${project.findProperty("GROQ_API_KEY") ?: ""}\""
         )
 
         testInstrumentationRunner =
