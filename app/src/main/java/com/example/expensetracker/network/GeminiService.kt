@@ -5,6 +5,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
 
 object GeminiService {
 
@@ -18,6 +19,9 @@ object GeminiService {
 
     private val client =
         OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS)
+            .writeTimeout(60, TimeUnit.SECONDS)
             .addInterceptor(logging)
             .build()
 
@@ -39,13 +43,9 @@ object GeminiService {
 
             val request =
                 GeminiRequest(
-
                     contents = listOf(
-
                         Content(
-
                             parts = listOf(
-
                                 Part(prompt)
                             )
                         )
@@ -67,12 +67,14 @@ object GeminiService {
                     ?.parts
                     ?.firstOrNull()
                     ?.text
-
                     ?: "No response received."
 
             } else {
 
-                "API Error : ${response.code()}"
+                val errorBody =
+                    response.errorBody()?.string()
+
+                "API Error : ${response.code()}\n\n$errorBody"
             }
 
         } catch (e: Exception) {
