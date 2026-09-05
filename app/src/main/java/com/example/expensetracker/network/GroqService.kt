@@ -33,7 +33,7 @@ object GroqService {
             try {
 
                 val request = GroqRequest(
-                    model = "qwen/qwen3.8-27b",
+                    model = "openai/gpt-oss-120b",
                     messages = listOf(
                         GroqMessage(
                             role = "user",

@@ -18,41 +18,61 @@ object PredictionEngine {
         monthlyBudget: Int
     ): PredictionResult {
 
-        val calendar = Calendar.getInstance()
+        val today = Calendar.getInstance()
 
-        val currentMonth = calendar.get(Calendar.MONTH)
-        val currentYear = calendar.get(Calendar.YEAR)
+        val currentMonth =
+            today.get(Calendar.MONTH)
 
-        val totalDays =
-            calendar.getActualMaximum(Calendar.DAY_OF_MONTH)
+        val currentYear =
+            today.get(Calendar.YEAR)
 
         val currentDay =
-            calendar.get(Calendar.DAY_OF_MONTH)
+            today.get(Calendar.DAY_OF_MONTH)
 
-        var currentMonthSpent = 0
+        val totalDays =
+            today.getActualMaximum(Calendar.DAY_OF_MONTH)
 
-        expenses.forEach { expense ->
+        /*
+         * IMPORTANT:
+         * Only expenses belonging to the current
+         * calendar month and current year are used.
+         */
+        val currentMonthExpenses =
+            expenses.filter { expense ->
 
-            val date = parseDate(expense.date)
+                val date =
+                    parseDate(expense.date)
 
-            if (date != null) {
+                if (date == null) {
+                    false
+                } else {
 
-                val expenseCalendar = Calendar.getInstance()
-                expenseCalendar.time = date
+                    val expenseCalendar =
+                        Calendar.getInstance()
 
-                if (
-                    expenseCalendar.get(Calendar.MONTH) == currentMonth &&
-                    expenseCalendar.get(Calendar.YEAR) == currentYear
-                ) {
+                    expenseCalendar.time = date
 
-                    currentMonthSpent +=
-                        expense.amount.toIntOrNull() ?: 0
+                    expenseCalendar.get(Calendar.MONTH) ==
+                            currentMonth &&
+                            expenseCalendar.get(Calendar.YEAR) ==
+                            currentYear
                 }
             }
-        }
 
-        // No current-month expenses
-        if (currentMonthSpent == 0) {
+        /*
+         * Calculate actual spending for the
+         * current month only.
+         */
+        val currentMonthSpent =
+            currentMonthExpenses.sumOf {
+
+                it.amount.toIntOrNull() ?: 0
+            }
+
+        /*
+         * No current-month expenses.
+         */
+        if (currentMonthSpent <= 0) {
 
             return PredictionResult(
                 0,
@@ -60,71 +80,117 @@ object PredictionEngine {
             )
         }
 
-        // Rule-based prediction
+        /*
+         * Rule-based monthly projection:
+         *
+         * Average spending per day
+         * =
+         * current-month spending / days elapsed
+         *
+         * Predicted monthly spending
+         * =
+         * average daily spending × total days
+         */
         val averagePerDay =
-            currentMonthSpent.toDouble() / currentDay
+            currentMonthSpent.toDouble() /
+                    currentDay.coerceAtLeast(1)
 
         val predicted =
-            (averagePerDay * totalDays).toInt()
+            (
+                    averagePerDay * totalDays
+                    ).toInt()
 
-        val message = when {
+        /*
+         * Never allow prediction to be below
+         * what has already been spent.
+         */
+        val finalPrediction =
+            maxOf(
+                predicted,
+                currentMonthSpent
+            )
 
-            predicted > monthlyBudget ->
-                "⚠ You may exceed your budget by ₹${predicted - monthlyBudget}. Try reducing non-essential spending."
+        val message =
+            when {
 
-            predicted > monthlyBudget * 0.9 ->
-                "📈 You're approaching your monthly budget. Spend carefully."
+                finalPrediction > monthlyBudget -> {
 
-            else ->
-                "✅ Excellent! You are likely to stay within your monthly budget."
-        }
+                    "⚠ You may exceed your budget by ₹" +
+                            "${finalPrediction - monthlyBudget}. " +
+                            "Try reducing non-essential spending."
+                }
+
+                finalPrediction >
+                        monthlyBudget * 0.9 -> {
+
+                    "📈 You're approaching your monthly budget. " +
+                            "Spend carefully."
+                }
+
+                else -> {
+
+                    "✅ Excellent! You are likely to stay " +
+                            "within your monthly budget."
+                }
+            }
 
         return PredictionResult(
-            predicted,
+            finalPrediction,
             message
         )
     }
 
-    private fun parseDate(dateString: String): Date? {
+    private fun parseDate(
+        dateString: String
+    ): Date? {
 
-        // Handle Android's "Sept" format
+        /*
+         * Android may save September as "Sept"
+         * while SimpleDateFormat uses "Sep".
+         */
         val normalizedDate =
             dateString
-                .replace("Sept", "Sep", ignoreCase = true)
+                .trim()
+                .replace(
+                    "Sept",
+                    "Sep",
+                    ignoreCase = true
+                )
 
-        val formats = listOf(
-            "dd MMM yy",
-            "dd MMM yyyy",
-            "dd MMMM yy",
-            "dd MMMM yyyy",
-            "dd/MM/yyyy",
-            "dd/MM/yy",
-            "dd-MM-yyyy",
-            "dd-MM-yy",
-            "yyyy-MM-dd"
-        )
+        val formats =
+            listOf(
+                "dd MMM yy",
+                "dd MMM yyyy",
+                "dd MMMM yy",
+                "dd MMMM yyyy",
+                "dd/MM/yyyy",
+                "dd/MM/yy",
+                "dd-MM-yyyy",
+                "dd-MM-yy",
+                "yyyy-MM-dd"
+            )
 
         for (pattern in formats) {
 
             try {
 
-                val format =
+                val formatter =
                     SimpleDateFormat(
                         pattern,
                         Locale.ENGLISH
                     )
 
-                format.isLenient = false
+                formatter.isLenient = false
 
                 val parsed =
-                    format.parse(normalizedDate)
+                    formatter.parse(normalizedDate)
 
                 if (parsed != null) {
                     return parsed
                 }
 
             } catch (_: Exception) {
-                // Try next format
+                // Try the next format
             }
         }
 
