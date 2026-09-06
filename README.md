@@ -132,7 +132,7 @@ Installation
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/Expense-Tracker-Android.git
+git clone https://github.com/mohapatranirjhala-stack/AI-Powered-Expense-Tracker-Android
 
 2. Open project in Android Studio
 
